@@ -1,0 +1,21 @@
+# Secrets
+.env
+*.key
+*.pem
+
+# Generated data and run outputs
+data/
+outputs/
+
+# Notebooks (kept out for now)
+*.ipynb
+.ipynb_checkpoints/
+
+# Python caches / envs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS noise
+.DS_Store
